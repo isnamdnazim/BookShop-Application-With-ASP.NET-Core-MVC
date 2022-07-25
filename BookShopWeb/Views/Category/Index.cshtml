@@ -21,6 +21,7 @@
             <th>Category Name</th>
             <th>Display Order</th>
             <th>Created Date Time</th>
+            <th></th>
         </tr>
     </thead>
     <tbody>
@@ -31,6 +32,11 @@
                 <td>@item.Name</td>
                 <td>@item.DisplayOrder</td>
                 <td>@item.CreatedDateTime</td>
+                <td>
+                    <div class="w-75 btn-group" role="group">
+                        <a> <i class="bi bi-pencil-square"></i> Edit</a>
+                    </div>
+                </td>
             </tr>
         }
     </tbody>
