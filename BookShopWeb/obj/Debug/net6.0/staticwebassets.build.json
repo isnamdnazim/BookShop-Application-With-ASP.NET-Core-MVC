@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VLc1OEin/wkYTgDg6R14vna7TTI8vKHcmMtbCA6zkqU=",
+  "Hash": "AoD0FTZpvIGVtE7oDQoHShO+aD2InJ+mCDm81Iyb16k=",
   "Source": "BookShopWeb",
   "BasePath": "_content/BookShopWeb",
   "Mode": "Default",
@@ -49,23 +49,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\isnam\\OneDrive\\Desktop\\Projects\\Udemy\\Complete guide to ASP.NET Core MVC (.NET 6)\\BookShop\\BookShopWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BookShopWeb.bundle.scp.css"
-    },
-    {
-      "Identity": "C:\\Users\\isnam\\OneDrive\\Desktop\\Projects\\Udemy\\Complete guide to ASP.NET Core MVC (.NET 6)\\BookShop\\BookShopWeb\\wwwroot\\css\\BootswatchTheme.css",
-      "SourceId": "BookShopWeb",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\isnam\\OneDrive\\Desktop\\Projects\\Udemy\\Complete guide to ASP.NET Core MVC (.NET 6)\\BookShop\\BookShopWeb\\wwwroot\\",
-      "BasePath": "_content/BookShopWeb",
-      "RelativePath": "css/BootswatchTheme.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\BootswatchTheme.css"
     },
     {
       "Identity": "C:\\Users\\isnam\\OneDrive\\Desktop\\Projects\\Udemy\\Complete guide to ASP.NET Core MVC (.NET 6)\\BookShop\\BookShopWeb\\wwwroot\\css\\site.css",
