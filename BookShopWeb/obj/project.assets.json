@@ -3134,6 +3134,32 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "BookShop.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "BookShop.Models": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.7",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.7",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.7"
+        },
+        "compile": {
+          "bin/placeholder/BookShop.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BookShop.DataAccess.dll": {}
+        }
+      },
+      "BookShop.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/BookShop.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BookShop.Models.dll": {}
+        }
       }
     }
   },
@@ -9649,10 +9675,21 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "BookShop.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../BookShop.DataAccess/BookShop.DataAccess.csproj",
+      "msbuildProject": "../BookShop.DataAccess/BookShop.DataAccess.csproj"
+    },
+    "BookShop.Models/1.0.0": {
+      "type": "project",
+      "path": "../BookShop.Models/BookShop.Models.csproj",
+      "msbuildProject": "../BookShop.Models/BookShop.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "BookShop.DataAccess >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 6.0.7",
       "Microsoft.EntityFrameworkCore >= 6.0.7",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.7",
@@ -9686,7 +9723,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\isnam\\OneDrive\\Desktop\\Projects\\Udemy\\Complete guide to ASP.NET Core MVC (.NET 6)\\BookShop\\BookShop.DataAccess\\BookShop.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\isnam\\OneDrive\\Desktop\\Projects\\Udemy\\Complete guide to ASP.NET Core MVC (.NET 6)\\BookShop\\BookShop.DataAccess\\BookShop.DataAccess.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

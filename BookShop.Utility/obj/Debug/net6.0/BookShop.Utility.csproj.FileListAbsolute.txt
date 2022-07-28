@@ -1,0 +1,12 @@
+C:\Users\isnam\OneDrive\Desktop\Projects\Udemy\Complete guide to ASP.NET Core MVC (.NET 6)\BookShop\BookShop.Utility\bin\Debug\net6.0\BookShop.Utility.deps.json
+C:\Users\isnam\OneDrive\Desktop\Projects\Udemy\Complete guide to ASP.NET Core MVC (.NET 6)\BookShop\BookShop.Utility\bin\Debug\net6.0\BookShop.Utility.dll
+C:\Users\isnam\OneDrive\Desktop\Projects\Udemy\Complete guide to ASP.NET Core MVC (.NET 6)\BookShop\BookShop.Utility\bin\Debug\net6.0\BookShop.Utility.pdb
+C:\Users\isnam\OneDrive\Desktop\Projects\Udemy\Complete guide to ASP.NET Core MVC (.NET 6)\BookShop\BookShop.Utility\obj\Debug\net6.0\BookShop.Utility.csproj.AssemblyReference.cache
+C:\Users\isnam\OneDrive\Desktop\Projects\Udemy\Complete guide to ASP.NET Core MVC (.NET 6)\BookShop\BookShop.Utility\obj\Debug\net6.0\BookShop.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\isnam\OneDrive\Desktop\Projects\Udemy\Complete guide to ASP.NET Core MVC (.NET 6)\BookShop\BookShop.Utility\obj\Debug\net6.0\BookShop.Utility.AssemblyInfoInputs.cache
+C:\Users\isnam\OneDrive\Desktop\Projects\Udemy\Complete guide to ASP.NET Core MVC (.NET 6)\BookShop\BookShop.Utility\obj\Debug\net6.0\BookShop.Utility.AssemblyInfo.cs
+C:\Users\isnam\OneDrive\Desktop\Projects\Udemy\Complete guide to ASP.NET Core MVC (.NET 6)\BookShop\BookShop.Utility\obj\Debug\net6.0\BookShop.Utility.csproj.CoreCompileInputs.cache
+C:\Users\isnam\OneDrive\Desktop\Projects\Udemy\Complete guide to ASP.NET Core MVC (.NET 6)\BookShop\BookShop.Utility\obj\Debug\net6.0\BookShop.Utility.dll
+C:\Users\isnam\OneDrive\Desktop\Projects\Udemy\Complete guide to ASP.NET Core MVC (.NET 6)\BookShop\BookShop.Utility\obj\Debug\net6.0\refint\BookShop.Utility.dll
+C:\Users\isnam\OneDrive\Desktop\Projects\Udemy\Complete guide to ASP.NET Core MVC (.NET 6)\BookShop\BookShop.Utility\obj\Debug\net6.0\BookShop.Utility.pdb
+C:\Users\isnam\OneDrive\Desktop\Projects\Udemy\Complete guide to ASP.NET Core MVC (.NET 6)\BookShop\BookShop.Utility\obj\Debug\net6.0\ref\BookShop.Utility.dll

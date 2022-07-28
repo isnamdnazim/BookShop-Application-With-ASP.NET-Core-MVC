@@ -1,0 +1,17 @@
+C:\Users\isnam\OneDrive\Desktop\Projects\Udemy\Complete guide to ASP.NET Core MVC (.NET 6)\BookShop\BookShop.DataAccess\obj\Debug\net6.0\BookShop.DataAccess.csproj.AssemblyReference.cache
+C:\Users\isnam\OneDrive\Desktop\Projects\Udemy\Complete guide to ASP.NET Core MVC (.NET 6)\BookShop\BookShop.DataAccess\obj\Debug\net6.0\BookShop.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\isnam\OneDrive\Desktop\Projects\Udemy\Complete guide to ASP.NET Core MVC (.NET 6)\BookShop\BookShop.DataAccess\obj\Debug\net6.0\BookShop.DataAccess.AssemblyInfoInputs.cache
+C:\Users\isnam\OneDrive\Desktop\Projects\Udemy\Complete guide to ASP.NET Core MVC (.NET 6)\BookShop\BookShop.DataAccess\obj\Debug\net6.0\BookShop.DataAccess.AssemblyInfo.cs
+C:\Users\isnam\OneDrive\Desktop\Projects\Udemy\Complete guide to ASP.NET Core MVC (.NET 6)\BookShop\BookShop.DataAccess\obj\Debug\net6.0\BookShop.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\isnam\OneDrive\Desktop\Projects\Udemy\Complete guide to ASP.NET Core MVC (.NET 6)\BookShop\BookShop.DataAccess\bin\Debug\net6.0\BookShop.DataAccess.deps.json
+C:\Users\isnam\OneDrive\Desktop\Projects\Udemy\Complete guide to ASP.NET Core MVC (.NET 6)\BookShop\BookShop.DataAccess\bin\Debug\net6.0\BookShop.DataAccess.runtimeconfig.json
+C:\Users\isnam\OneDrive\Desktop\Projects\Udemy\Complete guide to ASP.NET Core MVC (.NET 6)\BookShop\BookShop.DataAccess\bin\Debug\net6.0\BookShop.DataAccess.dll
+C:\Users\isnam\OneDrive\Desktop\Projects\Udemy\Complete guide to ASP.NET Core MVC (.NET 6)\BookShop\BookShop.DataAccess\bin\Debug\net6.0\BookShop.DataAccess.pdb
+C:\Users\isnam\OneDrive\Desktop\Projects\Udemy\Complete guide to ASP.NET Core MVC (.NET 6)\BookShop\BookShop.DataAccess\bin\Debug\net6.0\BookShop.Models.dll
+C:\Users\isnam\OneDrive\Desktop\Projects\Udemy\Complete guide to ASP.NET Core MVC (.NET 6)\BookShop\BookShop.DataAccess\bin\Debug\net6.0\BookShop.Models.pdb
+C:\Users\isnam\OneDrive\Desktop\Projects\Udemy\Complete guide to ASP.NET Core MVC (.NET 6)\BookShop\BookShop.DataAccess\obj\Debug\net6.0\BookShop.DataAccess.csproj.CopyComplete
+C:\Users\isnam\OneDrive\Desktop\Projects\Udemy\Complete guide to ASP.NET Core MVC (.NET 6)\BookShop\BookShop.DataAccess\obj\Debug\net6.0\BookShop.DataAccess.dll
+C:\Users\isnam\OneDrive\Desktop\Projects\Udemy\Complete guide to ASP.NET Core MVC (.NET 6)\BookShop\BookShop.DataAccess\obj\Debug\net6.0\refint\BookShop.DataAccess.dll
+C:\Users\isnam\OneDrive\Desktop\Projects\Udemy\Complete guide to ASP.NET Core MVC (.NET 6)\BookShop\BookShop.DataAccess\obj\Debug\net6.0\BookShop.DataAccess.pdb
+C:\Users\isnam\OneDrive\Desktop\Projects\Udemy\Complete guide to ASP.NET Core MVC (.NET 6)\BookShop\BookShop.DataAccess\obj\Debug\net6.0\BookShop.DataAccess.genruntimeconfig.cache
+C:\Users\isnam\OneDrive\Desktop\Projects\Udemy\Complete guide to ASP.NET Core MVC (.NET 6)\BookShop\BookShop.DataAccess\obj\Debug\net6.0\ref\BookShop.DataAccess.dll

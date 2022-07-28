@@ -551,3 +551,7 @@ C:\Users\isnam\OneDrive\Desktop\Projects\Udemy\Complete guide to ASP.NET Core MV
 C:\Users\isnam\OneDrive\Desktop\Projects\Udemy\Complete guide to ASP.NET Core MVC (.NET 6)\BookShop\BookShopWeb\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\isnam\OneDrive\Desktop\Projects\Udemy\Complete guide to ASP.NET Core MVC (.NET 6)\BookShop\BookShopWeb\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\isnam\OneDrive\Desktop\Projects\Udemy\Complete guide to ASP.NET Core MVC (.NET 6)\BookShop\BookShopWeb\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\isnam\OneDrive\Desktop\Projects\Udemy\Complete guide to ASP.NET Core MVC (.NET 6)\BookShop\BookShopWeb\bin\Debug\net6.0\BookShop.DataAccess.dll
+C:\Users\isnam\OneDrive\Desktop\Projects\Udemy\Complete guide to ASP.NET Core MVC (.NET 6)\BookShop\BookShopWeb\bin\Debug\net6.0\BookShop.Models.dll
+C:\Users\isnam\OneDrive\Desktop\Projects\Udemy\Complete guide to ASP.NET Core MVC (.NET 6)\BookShop\BookShopWeb\bin\Debug\net6.0\BookShop.DataAccess.pdb
+C:\Users\isnam\OneDrive\Desktop\Projects\Udemy\Complete guide to ASP.NET Core MVC (.NET 6)\BookShop\BookShopWeb\bin\Debug\net6.0\BookShop.Models.pdb

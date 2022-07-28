@@ -1,5 +1,5 @@
-﻿using BookShopWeb.Data;
-using BookShopWeb.Models;
+﻿using BookShop.DataAccess;
+using BookShop.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BookShopWeb.Controllers
