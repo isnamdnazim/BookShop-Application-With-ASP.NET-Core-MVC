@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Category>
+﻿@model IEnumerable<CoverType>
 @{
     ViewData["Title"] = "Index";
 }
@@ -7,10 +7,10 @@
 <div class="container p-3">
     <div class="row pt-4">
         <div class="col-6">
-            <h2 class="text-primary">Category List</h2>
+            <h2 class="text-primary">Cover Type List</h2>
         </div>
         <div class="col-6 text-end">
-            <a asp-controller="Category" asp-action="Create" class="btn btn-primary"><i class="bi bi-plus-circle"></i> &nbsp; Create New Category </a>
+            <a asp-controller="CoverType" asp-action="Create" class="btn btn-primary"><i class="bi bi-plus-circle"></i> &nbsp; Create New Cover Type </a>
         </div>
     </div>
     <br /><br />
@@ -18,9 +18,10 @@
 <table class="table table-bordered table-striped text-center" style="width:100%">
     <thead>
         <tr>
+           
+            <th>Cover Type</th>
             
-            <th>Category Name</th>
-            <th>Display Order</th>
+            
             <th>Action</th>
         </tr>
     </thead>
@@ -30,12 +31,12 @@
             <tr>
                 
                 <td>@item.Name</td>
-                <td>@item.DisplayOrder</td>
                
+                
                 <td>
                     <div class="w-75 btn-group" role="group">
-                        <a class="btn btn-primary mx-2 " asp-controller="Category" asp-action="Edit" asp-route-id="@item.Id"> <i class="bi bi-pencil-square "></i> Edit</a>
-                        <a class="btn btn-danger mx-2" asp-controller="Category" asp-action="Delete" asp-route-id="@item.Id"> <i class="bi bi-trash3"></i> Delete</a>
+                        <a class="btn btn-primary mx-2 " asp-controller="CoverType" asp-action="Edit" asp-route-id="@item.Id"> <i class="bi bi-pencil-square "></i> Edit</a>
+                        <a class="btn btn-danger mx-2" asp-controller="CoverType" asp-action="Delete" asp-route-id="@item.Id"> <i class="bi bi-trash3"></i> Delete</a>
                     </div>
                 </td>
             </tr>
