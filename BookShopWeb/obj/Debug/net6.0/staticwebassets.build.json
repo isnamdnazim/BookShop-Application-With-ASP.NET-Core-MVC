@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AoD0FTZpvIGVtE7oDQoHShO+aD2InJ+mCDm81Iyb16k=",
+  "Hash": "sY+PZqGJT0LPzm1d/IqQ9ZoKA6ZhkVNoD0MNG3MwO8c=",
   "Source": "BookShopWeb",
   "BasePath": "_content/BookShopWeb",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\isnam\\OneDrive\\Desktop\\Projects\\Udemy\\Complete guide to ASP.NET Core MVC (.NET 6)\\BookShop\\BookShopWeb\\wwwroot\\images\\products\\1036f53d-661d-47c8-b8dd-5edf70901e03.jpg",
+      "SourceId": "BookShopWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\isnam\\OneDrive\\Desktop\\Projects\\Udemy\\Complete guide to ASP.NET Core MVC (.NET 6)\\BookShop\\BookShopWeb\\wwwroot\\",
+      "BasePath": "_content/BookShopWeb",
+      "RelativePath": "images/products/1036f53d-661d-47c8-b8dd-5edf70901e03.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\1036f53d-661d-47c8-b8dd-5edf70901e03.jpg"
     },
     {
       "Identity": "C:\\Users\\isnam\\OneDrive\\Desktop\\Projects\\Udemy\\Complete guide to ASP.NET Core MVC (.NET 6)\\BookShop\\BookShopWeb\\wwwroot\\js\\site.js",

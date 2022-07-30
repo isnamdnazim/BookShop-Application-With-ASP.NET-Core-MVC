@@ -1,77 +1,87 @@
 ﻿using BookShop.DataAccess;
 using BookShop.DataAccess.Repository.IRepository;
 using BookShop.Models;
+using BookShop.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace BookShopWeb.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    public class CoverTypeController : Controller
+    public class ProductController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
-        public CoverTypeController(IUnitOfWork unitOfWork)
+        private readonly IWebHostEnvironment _webHostEnvironment;
+        public ProductController(IUnitOfWork unitOfWork, IWebHostEnvironment webHostEnvironment)
         {
             _unitOfWork = unitOfWork;
+            _webHostEnvironment = webHostEnvironment;
         }
 
         public IActionResult Index()
         {
-            IEnumerable<CoverType> objCoverTypeList = _unitOfWork.CoverType.GetAll();
-            return View(objCoverTypeList);
-        }
-
-        //Get
-        public IActionResult Create()
-        {
+            
             return View();
         }
 
-        //Post
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public IActionResult Create(CoverType obj)
-        {
-            
-            if (ModelState.IsValid)
-            {
-                _unitOfWork.CoverType.Add(obj);
-                _unitOfWork.Save();
-                TempData["success"] = "CoverType Created Sucessfully";
-                return RedirectToAction("Index");
-            }
-            return View(obj);
-
-        }
-
+        
         //Get
-        public IActionResult Edit(int? id)
+        public IActionResult Upsert(int? id)
         {
+            ProductVM productVM = new()
+            {
+                product = new(),
+                CategoryList = _unitOfWork.Category.GetAll().Select(i => new SelectListItem
+                {
+                    Text = i.Name,
+                    Value = i.Id.ToString()
+                }),
+                CoverTypeList = _unitOfWork.CoverType.GetAll().Select(i => new SelectListItem
+                {
+                    Text = i.Name,
+                    Value = i.Id.ToString()
+                }),
+            };
+
             if (id == null || id == 0)
             {
-                return NotFound();
+                //create product
+                //ViewBag.CategoryList = CategoryList;
+                //ViewData["CoverTypeList"] = CoverTypeList;
+                return View(productVM);
             }
-
-            var CoverTypeFromDbFirst = _unitOfWork.CoverType.GetFirstOrDefault(c => c.Id == id);
-
-            if (CoverTypeFromDbFirst == null)
+            else
             {
-                return NotFound();
+                //update product
             }
 
-            return View(CoverTypeFromDbFirst);
+            return View(productVM);
         }
 
         //Post
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Edit(CoverType obj)
+        public IActionResult Upsert(ProductVM obj, IFormFile? file)
         {
            
             if (ModelState.IsValid)
             {
-                _unitOfWork.CoverType.Update(obj);
+                string wwwRootPath = _webHostEnvironment.WebRootPath;
+                if(file != null)
+                {
+                    string filename = Guid.NewGuid().ToString();
+                    var uploads = Path.Combine(wwwRootPath, @"images\products");
+                    var extension = Path.GetExtension(file.FileName);
+
+                    using (var fileStreams = new FileStream(Path.Combine(uploads, filename + extension), FileMode.Create))
+                    {
+                        file.CopyTo(fileStreams);
+                    }
+                    obj.product.ImageUrl = @"\images\products\" + filename + extension;
+                }
+                _unitOfWork.Product.Add(obj.product);
                 _unitOfWork.Save();
-                TempData["success"] = "CoverType Updated Sucessfully";
+                TempData["success"] = "Product Created Sucessfully";
                 return RedirectToAction("Index");
             }
             return View(obj);
@@ -116,5 +126,17 @@ namespace BookShopWeb.Areas.Admin.Controllers
 
 
         }
+
+        #region API CALLS
+        [HttpGet]
+        public IActionResult GetAll()
+        {
+            var productList = _unitOfWork.Product.GetAll();
+            return Json(new { data = productList });
+
+        }
+        #endregion
     }
+
+
 }
