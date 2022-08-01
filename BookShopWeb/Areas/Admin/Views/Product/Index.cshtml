@@ -2,14 +2,16 @@
     <div class="row pt-4">
         <div class="col-6">
             <h2 class="text-primary">Product List</h2>
-        </div>
+		</div>
         <div class="col-6 text-end">
-            <a asp-controller="Product" asp-action="Upsert" class="btn btn-primary"><i class="bi bi-plus-circle"></i> &nbsp; Create New Product </a>
-        </div>
-    </div>
+            <a asp-controller="Product" asp-action="Upsert" class="btn btn-primary">
+               <i class="bi bi-plus-circle"></i> &nbsp; Create New Product
+			</a>
+		</div>
+	</div>
     <br /><br />
 
-<table id="tblData" class="table table-bordered table-striped " style="width:100%">
+<table  id="tblData"  class="table table-bordered table-striped" style="width:100%">
     <thead>
         <tr>
             <th>Title</th>
@@ -18,16 +20,13 @@
             <th>Author</th>
             <th>Category</th>
             <th>Action</th>
-        </tr>
-    </thead>
+		</tr>
+	</thead>
 </table>
-
 </div>
 
-
 @section Scripts{
-    <script src="~/js/Product.js"></script>
+    <script src="~/js/product.js"></script>
 }
-
 
 

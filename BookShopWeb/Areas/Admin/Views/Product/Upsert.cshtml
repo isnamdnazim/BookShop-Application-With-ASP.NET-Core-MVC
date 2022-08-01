@@ -1,8 +1,13 @@
 ﻿@model BookShop.Models.ViewModels.ProductVM
 
 <form method="post" asp-action="Upsert" enctype="multipart/form-data">
-    <div class="border row p-3 mt-4">
-        <div class="row pb-2">
+    <input asp-for="product.Id" hidden/>
+    <input asp-for="product.ImageUrl" hidden/>
+
+    <div class="row">
+        <div class="col-10">
+                <div class="border row p-3 mt-4">
+        <div class="col-12 pb-2">
             <h2 class="text-primary">@(Model.product.Id != 0? "Update" : "Create") Product</h2>
             <hr />
         </div>
@@ -75,10 +80,18 @@
                 <button type="submit" onclick="return validateInput()" class="btn btn-primary" style="width:150px">Create</button>
             }
             
-            <a asp-controller="CoverType" asp-action="Index" class="btn btn-secondary" style="width:150px">Back To List</a>
+            <a asp-controller="Product" asp-action="Index" class="btn btn-secondary" style="width:150px">Back To List</a>
         </div>
        
     </div>
+        </div>
+        <div class="col-2 mt-4">
+            <img src="@Model.product.ImageUrl" 
+            width="100%" style="border-radius:5px; border:1px solid #bbb9b9" />
+        </div>
+    </div>
+
+
 </form>
 
 @section Scripts{
