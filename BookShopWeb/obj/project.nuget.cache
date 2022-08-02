@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ExxVuKEIiZbooZyGhxwW1CcoG5cEmasroBvy7JAzNFDoIXNoMjsp7BErExGt5Md2ajqcDNkXAoc7LJOzAF5ZtQ==",
+  "dgSpecHash": "KLN8uWYcYErKcIrOSe4ClMsK5RS0zByS6om58mpMN8ZycCh2ief8GhH0L35HCiKiIYTH51ueyu7ihxp79SGIGQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\isnam\\OneDrive\\Desktop\\Projects\\Udemy\\Complete guide to ASP.NET Core MVC (.NET 6)\\BookShop\\BookShopWeb\\BookShopWeb.csproj",
   "expectedPackageFiles": [
@@ -139,6 +139,7 @@
     "C:\\Users\\isnam\\.nuget\\packages\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\isnam\\.nuget\\packages\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\isnam\\.nuget\\packages\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\isnam\\.nuget\\packages\\stripe.net\\40.0.0\\stripe.net.40.0.0.nupkg.sha512",
     "C:\\Users\\isnam\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\isnam\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\isnam\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
