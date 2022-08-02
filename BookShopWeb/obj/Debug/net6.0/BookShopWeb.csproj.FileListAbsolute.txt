@@ -564,3 +564,5 @@ C:\Users\isnam\OneDrive\Desktop\Projects\Udemy\Complete guide to ASP.NET Core MV
 C:\Users\isnam\OneDrive\Desktop\Projects\Udemy\Complete guide to ASP.NET Core MVC (.NET 6)\BookShop\BookShopWeb\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\isnam\OneDrive\Desktop\Projects\Udemy\Complete guide to ASP.NET Core MVC (.NET 6)\BookShop\BookShopWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
 C:\Users\isnam\OneDrive\Desktop\Projects\Udemy\Complete guide to ASP.NET Core MVC (.NET 6)\BookShop\BookShopWeb\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\isnam\OneDrive\Desktop\Projects\Udemy\Complete guide to ASP.NET Core MVC (.NET 6)\BookShop\BookShopWeb\bin\Debug\net6.0\BookShop.Utility.dll
+C:\Users\isnam\OneDrive\Desktop\Projects\Udemy\Complete guide to ASP.NET Core MVC (.NET 6)\BookShop\BookShopWeb\bin\Debug\net6.0\BookShop.Utility.pdb

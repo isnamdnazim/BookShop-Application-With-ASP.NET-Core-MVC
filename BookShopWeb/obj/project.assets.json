@@ -3738,13 +3738,27 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.2.0"
+          "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.2.0",
+          "Microsoft.Extensions.Identity.Stores": "6.0.7"
         },
         "compile": {
           "bin/placeholder/BookShop.Models.dll": {}
         },
         "runtime": {
           "bin/placeholder/BookShop.Models.dll": {}
+        }
+      },
+      "BookShop.Utility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "6.0.7"
+        },
+        "compile": {
+          "bin/placeholder/BookShop.Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BookShop.Utility.dll": {}
         }
       }
     }
@@ -11056,11 +11070,17 @@
       "type": "project",
       "path": "../BookShop.Models/BookShop.Models.csproj",
       "msbuildProject": "../BookShop.Models/BookShop.Models.csproj"
+    },
+    "BookShop.Utility/1.0.0": {
+      "type": "project",
+      "path": "../BookShop.Utility/BookShop.Utility.csproj",
+      "msbuildProject": "../BookShop.Utility/BookShop.Utility.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "BookShop.DataAccess >= 1.0.0",
+      "BookShop.Utility >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.7",
       "Microsoft.AspNetCore.Identity.UI >= 6.0.7",
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 6.0.7",
@@ -11099,6 +11119,9 @@
           "projectReferences": {
             "C:\\Users\\isnam\\OneDrive\\Desktop\\Projects\\Udemy\\Complete guide to ASP.NET Core MVC (.NET 6)\\BookShop\\BookShop.DataAccess\\BookShop.DataAccess.csproj": {
               "projectPath": "C:\\Users\\isnam\\OneDrive\\Desktop\\Projects\\Udemy\\Complete guide to ASP.NET Core MVC (.NET 6)\\BookShop\\BookShop.DataAccess\\BookShop.DataAccess.csproj"
+            },
+            "C:\\Users\\isnam\\OneDrive\\Desktop\\Projects\\Udemy\\Complete guide to ASP.NET Core MVC (.NET 6)\\BookShop\\BookShop.Utility\\BookShop.Utility.csproj": {
+              "projectPath": "C:\\Users\\isnam\\OneDrive\\Desktop\\Projects\\Udemy\\Complete guide to ASP.NET Core MVC (.NET 6)\\BookShop\\BookShop.Utility\\BookShop.Utility.csproj"
             }
           }
         }

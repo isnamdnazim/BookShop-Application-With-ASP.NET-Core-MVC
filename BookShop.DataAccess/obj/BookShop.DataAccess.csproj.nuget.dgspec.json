@@ -125,6 +125,10 @@
             "Microsoft.AspNetCore.Mvc.ViewFeatures": {
               "target": "Package",
               "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[6.0.7, )"
             }
           },
           "imports": [

@@ -35,6 +35,7 @@
       "BookShopWeb/1.0.0": {
         "dependencies": {
           "BookShop.DataAccess": "1.0.0",
+          "BookShop.Utility": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.7",
           "Microsoft.AspNetCore.Identity.UI": "6.0.7",
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "6.0.7",
@@ -3123,13 +3124,25 @@
       },
       "BookShop.Models/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.2.0"
+          "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.2.0",
+          "Microsoft.Extensions.Identity.Stores": "6.0.7"
         },
         "runtime": {
           "BookShop.Models.dll": {}
         },
         "compile": {
           "BookShop.Models.dll": {}
+        }
+      },
+      "BookShop.Utility/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "6.0.7"
+        },
+        "runtime": {
+          "BookShop.Utility.dll": {}
+        },
+        "compile": {
+          "BookShop.Utility.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery.Reference/6.0.0.0": {
@@ -6393,6 +6406,11 @@
       "sha512": ""
     },
     "BookShop.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BookShop.Utility/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

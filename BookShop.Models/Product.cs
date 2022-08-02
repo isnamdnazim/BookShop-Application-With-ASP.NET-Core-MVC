@@ -14,12 +14,12 @@ namespace BookShop.Models
         [Key]
         public int Id { get; set; }
         [Required]
-        public string Title { get; set; }
-        public string Description { get; set; }
+        public string? Title { get; set; }
+        public string? Description { get; set; }
         [Required]
-        public string ISBN { get; set; }
+        public string? ISBN { get; set; }
         [Required]
-        public string Author { get; set; }
+        public string? Author { get; set; }
         [Required]
         [Range(1,10000)]
         [Display(Name = "List Price")]
@@ -37,20 +37,20 @@ namespace BookShop.Models
         [Display(Name = "Price For 100+")]
         public double Price100 { get; set; }
         [ValidateNever]
-        public string ImageUrl { get; set; }
+        public string? ImageUrl { get; set; }
 
         [Required]
         [Display(Name = "Category")]
         public int CategoryId { get; set; }
         [ForeignKey("CategoryId")]
         [ValidateNever]
-        public Category Category { get; set; }
+        public Category? Category { get; set; }
 
         [Required]
         [Display(Name ="Cover Type")]
         public int CoverTypeId { get; set; }
         [ForeignKey("CoverTypeId")]
         [ValidateNever]
-        public CoverType CoverType { get; set; }
+        public CoverType? CoverType { get; set; }
     }
 }
