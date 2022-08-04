@@ -2,12 +2,15 @@
 using BookShop.DataAccess.Repository.IRepository;
 using BookShop.Models;
 using BookShop.Models.ViewModels;
+using BookShop.Utility;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace BookShopWeb.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = StaticDetails.Role_Admin)]
     public class CompanyController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;

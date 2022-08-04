@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@using BookShop.Utility
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -59,16 +60,24 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="Customer" asp-controller="Home" asp-action="Index">Home</a> 
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Content Management</a>
-                                <div class="dropdown-menu">
-                                    <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Category" asp-action="Index">Category</a>
-                                    <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="CoverType" asp-action="Index">Cover Type</a>
-                                    <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Product" asp-action="Index">Product</a>
-                                    <div class="dropdown-divider">
+                        @if(User.IsInRole(StaticDetails.Role_Admin))
+                        {                        
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Content Management</a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Category" asp-action="Index">Category</a>
+                                        <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="CoverType" asp-action="Index">Cover Type</a>
+                                        <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Product" asp-action="Index">Product</a>
+                                        <div class="dropdown-divider">
+                                        </div>
+                                        <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Company" asp-action="Index">Company</a>
                                     </div>
-                                    <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Company" asp-action="Index">Company</a>
-                                </div>
+                            </li>
+                        }
+                         <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="Admin" asp-controller="Order" asp-action="Index">
+                                Manage Order
+                            </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" asp-area="Customer" asp-controller="Cart" asp-action="Index">
