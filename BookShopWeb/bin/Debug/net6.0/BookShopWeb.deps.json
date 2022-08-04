@@ -3177,6 +3177,7 @@
       "BookShop.DataAccess/1.0.0": {
         "dependencies": {
           "BookShop.Models": "1.0.0",
+          "BookShop.Utility": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.7",
           "Microsoft.EntityFrameworkCore": "6.0.7",
           "Microsoft.EntityFrameworkCore.Relational": "6.0.7",

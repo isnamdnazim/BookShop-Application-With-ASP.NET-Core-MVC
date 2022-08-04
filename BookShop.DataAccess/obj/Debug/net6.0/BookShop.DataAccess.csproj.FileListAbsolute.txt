@@ -15,3 +15,5 @@ C:\Users\isnam\OneDrive\Desktop\Projects\Udemy\Complete guide to ASP.NET Core MV
 C:\Users\isnam\OneDrive\Desktop\Projects\Udemy\Complete guide to ASP.NET Core MVC (.NET 6)\BookShop\BookShop.DataAccess\obj\Debug\net6.0\BookShop.DataAccess.pdb
 C:\Users\isnam\OneDrive\Desktop\Projects\Udemy\Complete guide to ASP.NET Core MVC (.NET 6)\BookShop\BookShop.DataAccess\obj\Debug\net6.0\BookShop.DataAccess.genruntimeconfig.cache
 C:\Users\isnam\OneDrive\Desktop\Projects\Udemy\Complete guide to ASP.NET Core MVC (.NET 6)\BookShop\BookShop.DataAccess\obj\Debug\net6.0\ref\BookShop.DataAccess.dll
+C:\Users\isnam\OneDrive\Desktop\Projects\Udemy\Complete guide to ASP.NET Core MVC (.NET 6)\BookShop\BookShop.DataAccess\bin\Debug\net6.0\BookShop.Utility.dll
+C:\Users\isnam\OneDrive\Desktop\Projects\Udemy\Complete guide to ASP.NET Core MVC (.NET 6)\BookShop\BookShop.DataAccess\bin\Debug\net6.0\BookShop.Utility.pdb

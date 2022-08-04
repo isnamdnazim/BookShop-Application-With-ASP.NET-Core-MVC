@@ -201,6 +201,7 @@ namespace BookShopWeb.Areas.Customer.Controllers
             //_emailSender.SendEmailAsync(orderHeader.ApplicationUser.Email, "New Order - BookShop", "<p>New Order Created</p>");
             
             List<ShoppingCart> shoppingCarts = _unitOfWork.ShoppingCart.GetAll(u => u.ApplicationUserId == orderHeader.ApplicationUserId).ToList();
+            HttpContext.Session.Clear();
             _unitOfWork.ShoppingCart.RemoveRange(shoppingCarts);
             _unitOfWork.Save();
 

@@ -30,6 +30,9 @@
             "projectReferences": {
               "C:\\Users\\isnam\\OneDrive\\Desktop\\Projects\\Udemy\\Complete guide to ASP.NET Core MVC (.NET 6)\\BookShop\\BookShop.Models\\BookShop.Models.csproj": {
                 "projectPath": "C:\\Users\\isnam\\OneDrive\\Desktop\\Projects\\Udemy\\Complete guide to ASP.NET Core MVC (.NET 6)\\BookShop\\BookShop.Models\\BookShop.Models.csproj"
+              },
+              "C:\\Users\\isnam\\OneDrive\\Desktop\\Projects\\Udemy\\Complete guide to ASP.NET Core MVC (.NET 6)\\BookShop\\BookShop.Utility\\BookShop.Utility.csproj": {
+                "projectPath": "C:\\Users\\isnam\\OneDrive\\Desktop\\Projects\\Udemy\\Complete guide to ASP.NET Core MVC (.NET 6)\\BookShop\\BookShop.Utility\\BookShop.Utility.csproj"
               }
             }
           }

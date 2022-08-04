@@ -8,6 +8,7 @@ using BookShop.Utility;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Stripe;
 using System;
+using BookShop.DataAccess.DbInitializer;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,14 +24,14 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddDefaultTokenProvid
     .AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultUI();
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+builder.Services.AddScoped<IDbInitializer, DbInitializer>();
 builder.Services.AddSingleton<IEmailSender, EmailSender>();
 
 builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
 
 builder.Services.AddAuthentication().AddFacebook(options =>
 {
-    options.AppId = "5334573663293054";
-    options.AppSecret = "744af11e8f6ab179b3fa1b46c38e97f6";
+   
 });
 
 builder.Services.ConfigureApplicationCookie(options =>
@@ -63,6 +64,7 @@ app.UseStaticFiles();
 app.UseRouting();
 
 StripeConfiguration.ApiKey = builder.Configuration.GetSection("Stripe:SecretKey").Get<string>();
+//SeedDatabase();
 
 app.UseAuthentication();
 
@@ -76,3 +78,13 @@ app.MapControllerRoute(
     pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
+
+
+void SeedDatabase()
+{
+    using (var scope = app.Services.CreateScope())
+	{
+        var dbInitializer = scope.ServiceProvider.GetRequiredService<IDbInitializer>();
+        dbInitializer.Initialize();
+	}
+}
